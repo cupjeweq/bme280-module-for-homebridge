@@ -1,0 +1,37 @@
+{
+  "name": "bme280-module-for-homebridge",
+  "version": "1.4.0",
+  "description": "BME280 temperature/humidity/pressure sensor bridge for Homebridge",
+  "main": "sensor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cupjeweq/bme280-module-for-homebridge.git"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "bosch",
+    "bme280",
+    "temperature",
+    "humidity",
+    "pressure",
+    "sensor"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=10.17.0",
+    "homebridge": ">=1.1.7"
+  },
+  "dependencies": {
+    "new-module-for-bme280": ">=2.0.1",
+    "debug": ">=4.1.1",
+    "mcuiot-logger": ">=0.0.12",
+    "moment": ">=2.24.0",
+    "fakegato-history": ">=0.5.6"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
